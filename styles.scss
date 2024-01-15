@@ -3,8 +3,14 @@ $primary: #2a10bd;
 $theme-colors:(
     "primary": $primary
     );
+    
+section{
+    padding: 10px 0;
+}
 
-
+.Circuito-link img{
+    width: 700px;
+}
 
 @import"./node_modules/bootstrap/scss/bootstrap.scss";
 
